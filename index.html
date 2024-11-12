@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club Registration Form</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css";; rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+    body {
+        background-image: url("geometric-tech-shape-background-free-vector.jpg") ;
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        padding: 5px;
+    }
+    #box {
+        background-color: darkblue;
+        border:solid;
+        border-width: 3px;
+        border-color: white;
+        border-radius: 7px;
+        color: white;
+    }
+</style>
+
+</head>
+
+<body>
+    
+        <h1>Robotics Club Registration Form</h1>
+
+    <div class="container p-5" id="box">
+
+        <div class="row">
+            <div class="col p-2">
+                <label style="font-weight: bolder;"> Name </label>
+                <input type="text" class="form-control" id="user" placeholder="Type here">
+            </div>
+
+            <div class="col p-2">
+                <label style="font-weight: bolder;"> Age </label>
+                <input type="text" class="form-control" id="user" placeholder="Type here">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col p-2">
+                <label style="font-weight: bolder;"> Email Address </label>
+                <input type="text" class="form-control" id="user" placeholder="Type here">
+            </div>
+
+            <div class="col p-2">
+                <label style="font-weight: bolder;"> Phone Number </label>
+                <input type="text" class="form-control" id="user" placeholder="Type here">
+            </div>
+        </div>
+    
+    <br>
+    
+        <h6 style="font-weight: bolder;">Preferred Robotics Topics</h6>
+   
+        <div class="form-check">
+            <label class="form-check-label" style="color: lightblue;">
+                <input type="checkbox" class="form-check-input" value="">Programming
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" value="" style="color: blue;">
+                <input type="checkbox" class="form-check-input">Electronics
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" style="color: aqua;">
+                <input type="checkbox" class="form-check-input" value="">Mechanical Design
+            </label>
+        </div>
+    
+    
+    <br>
+    
+        <h6 style="font-weight: bolder;"> Robotics Experience Level </h6>
+   
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio"><span style="color:greenyellow">Beginner</span>
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio"><span style="color:yellow">Intermediate    
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio"><span style="color:lightblue">Advanced</span>
+            </label>
+        </div>
+
+    <br>
+
+        <div class="form-group">
+            <label for="sell" style="font-weight: bolder;"> Preferred Robotics Project</label>
+            <select class="form-control" id="sell">
+                <option>N/A</option>
+                <option>Line Follower Robot</option>
+                <option>Robotic Arm</option>
+                <option>Self Balancing Robot</option>
+            </select>
+        </div>
+
+        <br>
+
+    <label style="font-weight: bolder;"> Statement of Interest </label>
+    <textarea class="form-control   " rows="5" id="comment" placeholder="Type here"></textarea>
+
+<br>
+
+<div class="d-grid col-15">
+    <button type="button" class="btn btn-primary btn-block" style="font-weight: bolder;">Register</button>
+</div>
+
+    
+    
+    
+    
+    </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
